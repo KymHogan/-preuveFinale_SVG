@@ -13,6 +13,19 @@
      stroke:#0000ff;
 }
 
+#figure ellipse{
+     fill:#00ff00; 
+     stroke-width:4;
+     stroke:#0000ff;
+}
+
+/*
+#figure ellipse:nth-child(2){
+    transform-origin:center center;
+    transform:rotate(-90,190,200);
+}
+*/
+
 .animRotation{
     animation: animationRotation 3s linear infinite;
     transform-origin:center center;
