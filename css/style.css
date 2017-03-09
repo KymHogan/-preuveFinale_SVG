@@ -41,7 +41,7 @@
 .animContour{
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: animationContour 6s linear infinite;
+    animation: animationContour 6s linear alternate infinite;
 }
 
 @keyframes animationContour { 
