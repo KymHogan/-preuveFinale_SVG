@@ -6,3 +6,14 @@
     height: 450px;
 }
 */
+
+.animRotation{
+    animation: animationRotation 3s linear infinite;
+}
+
+@keyframes animationRotation { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
