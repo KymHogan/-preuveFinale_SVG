@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Kym Hogan - Épreuve Finale - Animations SVG</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Kym Hogan - Épreuve Finale - Animations SVG</h1>
     <section id="contenantSVG">
-        <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-            <g>
-              <title>Figure SVG</title>
-              <ellipse stroke="#0f0f00" stroke-opacity="0" ry="105.999997" rx="105.999997" id="svg_1" cy="199.999997" cx="196.499997" stroke-width="1.5" fill="#ff0000"/>
-              <ellipse ry="160" rx="28.5" id="svg_2" cy="197" cx="197" stroke-width="4" stroke="#0000ff" fill="#00ff00"/>
-              <ellipse transform="rotate(-90 191.00000000000003,200) " ry="160" rx="28.5" id="svg_3" cy="200" cx="191" stroke-width="4" stroke="#0000ff" fill="#00ff00"/>
-            </g>
+        <svg width="700" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <g id="figure">
+                  <title>Figure SVG</title>
+                  <circle cx="60" cy="60" r="40" fill="red"/>
+                  <ellipse ry="60" rx="15" cy="60" cx="60" stroke-width="4" stroke="#0000ff" fill="#00ff00"/>
+                  <ellipse fill="#00ff00" stroke="#0000ff" stroke-width="4" cx="330" cy="70" rx="15" ry="60" transform="rotate(-90,190,200)"></ellipse>
+                </g>
+            </defs>
+            <use x="300" y="50" xlink:href="#figure"/>
         </svg>
     </section>
 </body>
