@@ -9,6 +9,7 @@
 
 .animRotation{
     animation: animationRotation 3s linear infinite;
+    transform-origin:center center;
 }
 
 @keyframes animationRotation { 
