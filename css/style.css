@@ -7,6 +7,12 @@
 }
 */
 
+#figure circle{
+     fill:red; 
+     stroke-width:4;
+     stroke:#0000ff;
+}
+
 .animRotation{
     animation: animationRotation 3s linear infinite;
     transform-origin:center center;
