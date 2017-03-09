@@ -32,8 +32,23 @@
 }
 
 @keyframes animationRotation { 
-    100% { 
+    to { 
         -webkit-transform: rotate(360deg); 
         transform:rotate(360deg); 
     } 
+}
+
+.animContour{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: animationContour 6s linear infinite;
+}
+
+@keyframes animationContour { 
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
